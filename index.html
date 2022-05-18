@@ -23,15 +23,15 @@
                         <a class="navbar-brand" href="#"><img src="./img/cat.png" alt="Home"></a>
                     </div>
                     <button style="background-color: white; margin-right: 10%;"
-                    class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                    class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <form class="d-flex search-box" role="search">
-                                <input class=" box-input form-control me-2" type="search" placeholder="Search anime..." aria-label="Search">
-                                <button class="btn btn-success" type="submit">Search </button>
+                                <input class=" box-input form-control me-2 mr-1" type="search" placeholder="Search anime..." aria-label="Search">
+                                <button class="btn btn-success mr-5" type="submit">Search </button>
                             </form>
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">HOME</a>
@@ -206,7 +206,6 @@
             </div>
         </div>
     </section>
-
     <!-- section_2 -->
     <section class="category">
         <div class="slide-category">
@@ -608,14 +607,16 @@
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        dots: false,
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots: false,
       }
     }
     // You can unslick at a given breakpoint now by adding:
